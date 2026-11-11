@@ -16,7 +16,7 @@
   - Implement `SearchBar` and status dropdown filter on home page.
   - *Done when:* User can filter characters by name and status simultaneously.
 
-- [ ] **Task 5: Character Detail Page**
+- [x] **Task 5: Character Detail Page**
   - Create detail view utilizing `useParams` to fetch `/characters/:id` and display origin, location, and episode count.
   - *Done when:* Clicking a card navigates to `/characters/:id` and renders full character details.
 

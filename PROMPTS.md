@@ -27,3 +27,14 @@
 > 2. Create a separate SearchBar component in src/components/SearchBar.tsx with inputs for text search and status dropdown.
 > 3. Connect it to HomePage so characters update instantly as the user types or changes status. Ensure no 'any' types are used.
 > </pasted_content id="adc6">
+
+**21:30 · claude**
+
+> <pasted_content id="12f4">
+> Please read PRD.md and tasks.md, and implement Task 5 in full.
+> 
+> 1. In src/pages/CharacterDetailPage.tsx, use useParams to get the character ID and fetch character details from the Rick and Morty API.
+> 2. Reuse LoadingSpinner and ErrorMessage for loading and error states.
+> 3. Display character image, name, status badge, species, gender, origin name, current location name, and episode count (episode.length).
+> 4. Include a "Back to Characters" link/button to return to the home page. Ensure strict TypeScript types (no 'any').
+> </pasted_content id="12f4">
