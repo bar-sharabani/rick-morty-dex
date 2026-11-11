@@ -4,7 +4,7 @@
   - Define TypeScript types (`Character`, `LocationInfo`, `ApiResponse`) in `src/types/character.ts`. Setup `BrowserRouter` with routes (`/`, `/characters/:id`, `/favorites`, `/stats`) and navigation bar.
   - *Done when:* Clicking navigation links changes routes without page reload.
 
-- [ ] **Task 2: Character Fetching & State Handling**
+- [x] **Task 2: Character Fetching & State Handling**
   - Fetch character data from Rick and Morty API on home page with loading, error, and success states.
   - *Done when:* Page displays spinner while loading, error message on network failure, or list of character names on success.
 
