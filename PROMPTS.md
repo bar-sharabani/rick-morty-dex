@@ -49,3 +49,16 @@
 > 3. Implement src/pages/FavoritesPage.tsx displaying the grid of favorited characters, and an empty state ("No favorites saved yet") with a link back to characters if empty.
 > 4. Ensure full TypeScript types, no 'any', and responsive design.
 > </pasted_content id="34ba">
+
+**21:45 · claude**
+
+> <pasted_content id="736d">
+> Please read PRD.md and tasks.md, and implement Task 7 in full.
+> 
+> 1. In src/utils/stats.ts, implement pure calculation functions for:
+>    * calculateStatusDistribution: count of Alive, Dead, and unknown characters.
+>    * getTopSpecies: ranking of species distribution.
+>    * getMostFeaturedCharacter: character with the highest episode count.
+> 2. In src/pages/StatsPage.tsx, reuse useCharacters, LoadingSpinner, and ErrorMessage to fetch characters and display these metrics in attractive statistical summary cards.
+> 3. Ensure responsive layout, clean CSS, and strict typing without any 'any'.
+> </pasted_content id="736d">

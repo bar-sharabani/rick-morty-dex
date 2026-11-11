@@ -24,7 +24,7 @@
   - Implement favorite toggle button and persist favorites in `localStorage`. Build `/favorites` page.
   - *Done when:* Favorited characters appear on `/favorites` and remain after browser reload.
 
-- [ ] **Task 7: Multiverse Statistics Page**
+- [x] **Task 7: Multiverse Statistics Page**
   - Implement pure utility functions for metrics (status counts, species distribution, top character). Display metrics on `/stats`.
   - *Done when:* `/stats` displays calculated summaries from the character data.
 
