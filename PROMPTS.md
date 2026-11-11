@@ -62,3 +62,20 @@
 > 2. In src/pages/StatsPage.tsx, reuse useCharacters, LoadingSpinner, and ErrorMessage to fetch characters and display these metrics in attractive statistical summary cards.
 > 3. Ensure responsive layout, clean CSS, and strict typing without any 'any'.
 > </pasted_content id="736d">
+
+**21:52 · claude**
+
+> <pasted_content id="8733">
+> Please read PRD.md and tasks.md, and implement Task 8 in full.
+> 
+> 1. Install vitest and @vitest/ui as devDependencies.
+> 2. Add "test": "vitest run" and "test:ui": "vitest --ui" scripts to package.json. Configure vite.config.ts if needed.
+> 3. Write at least 6 meaningful unit tests across src/utils/filterCharacters.test.ts and src/utils/stats.test.ts covering:
+>    * Filtering by name (case-insensitive).
+>    * Filtering by status.
+>    * Combined name and status filtering.
+>    * calculateStatusDistribution handling various cases.
+>    * getTopSpecies calculation and percentage ranking.
+>    * getMostFeaturedCharacter finding the max episodes character and handling empty lists.
+> 4. Ensure all tests pass with npm test, zero TypeScript errors, and no 'any' types.
+> </pasted_content id="8733">

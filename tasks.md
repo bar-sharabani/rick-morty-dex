@@ -28,7 +28,7 @@
   - Implement pure utility functions for metrics (status counts, species distribution, top character). Display metrics on `/stats`.
   - *Done when:* `/stats` displays calculated summaries from the character data.
 
-- [ ] **Task 8: Unit Testing with Vitest**
+- [x] **Task 8: Unit Testing with Vitest**
   - Install Vitest and Vitest UI. Write at least 5 unit tests for filtering and statistics calculations.
   - *Done when:* `npm test` passes all tests and `npm run test:ui` opens the Vitest dashboard without errors.
 
