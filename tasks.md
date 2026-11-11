@@ -1,6 +1,6 @@
 # Development Tasks - Rick and Morty Dex
 
-- [ ] **Task 1: Setup Types & Core Routing**
+- [x] **Task 1: Setup Types & Core Routing**
   - Define TypeScript types (`Character`, `LocationInfo`, `ApiResponse`) in `src/types/character.ts`. Setup `BrowserRouter` with routes (`/`, `/characters/:id`, `/favorites`, `/stats`) and navigation bar.
   - *Done when:* Clicking navigation links changes routes without page reload.
 
