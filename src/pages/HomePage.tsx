@@ -1,3 +1,4 @@
+import CharacterCard from '../components/CharacterCard'
 import ErrorMessage from '../components/ErrorMessage'
 import LoadingSpinner from '../components/LoadingSpinner'
 import { useCharacters } from '../hooks/useCharacters'
@@ -20,9 +21,11 @@ function HomePage() {
       )}
 
       {state.status === 'success' && (
-        <ul className="character-list">
+        <ul className="character-grid">
           {state.characters.map((character) => (
-            <li key={character.id}>{character.name}</li>
+            <li key={character.id}>
+              <CharacterCard character={character} />
+            </li>
           ))}
         </ul>
       )}

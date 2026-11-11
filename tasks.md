@@ -8,7 +8,7 @@
   - Fetch character data from Rick and Morty API on home page with loading, error, and success states.
   - *Done when:* Page displays spinner while loading, error message on network failure, or list of character names on success.
 
-- [ ] **Task 3: CharacterCard & Grid Component**
+- [x] **Task 3: CharacterCard & Grid Component**
   - Build `CharacterCard` component rendering image, name, species, and status badge. Map list with unique `key={character.id}`.
   - *Done when:* Home page displays a clean, responsive grid of characters.
 
