@@ -12,7 +12,7 @@
   - Build `CharacterCard` component rendering image, name, species, and status badge. Map list with unique `key={character.id}`.
   - *Done when:* Home page displays a clean, responsive grid of characters.
 
-- [ ] **Task 4: Search & Filtering Logic**
+- [x] **Task 4: Search & Filtering Logic**
   - Implement `SearchBar` and status dropdown filter on home page.
   - *Done when:* User can filter characters by name and status simultaneously.
 
