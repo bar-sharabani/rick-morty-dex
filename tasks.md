@@ -20,7 +20,7 @@
   - Create detail view utilizing `useParams` to fetch `/characters/:id` and display origin, location, and episode count.
   - *Done when:* Clicking a card navigates to `/characters/:id` and renders full character details.
 
-- [ ] **Task 6: Favorites Page & LocalStorage**
+- [x] **Task 6: Favorites Page & LocalStorage**
   - Implement favorite toggle button and persist favorites in `localStorage`. Build `/favorites` page.
   - *Done when:* Favorited characters appear on `/favorites` and remain after browser reload.
 

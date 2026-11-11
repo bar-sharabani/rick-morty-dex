@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import ErrorMessage from '../components/ErrorMessage'
+import FavoriteButton from '../components/FavoriteButton'
 import LoadingSpinner from '../components/LoadingSpinner'
 import StatusBadge from '../components/StatusBadge'
 import { useCharacter } from '../hooks/useCharacter'
@@ -65,6 +66,11 @@ function CharacterDetailPage() {
           <div className="character-detail-body">
             <h1 className="character-detail-name">{state.character.name}</h1>
             <StatusBadge status={state.character.status} />
+            <FavoriteButton
+              characterId={state.character.id}
+              characterName={state.character.name}
+              variant="labeled"
+            />
             <dl className="character-detail-fields">
               {getDetailFields(state.character).map(({ label, value }) => (
                 <div key={label} className="character-detail-field">

@@ -38,3 +38,14 @@
 > 3. Display character image, name, status badge, species, gender, origin name, current location name, and episode count (episode.length).
 > 4. Include a "Back to Characters" link/button to return to the home page. Ensure strict TypeScript types (no 'any').
 > </pasted_content id="12f4">
+
+**21:37 · claude**
+
+> <pasted_content id="34ba">
+> Please read PRD.md and tasks.md, and implement Task 6 in full.
+> 
+> 1. Create a useFavorites hook in src/hooks/useFavorites.ts to manage favorited character IDs with persistence in localStorage.
+> 2. Add an interactive favorite toggle button (star icon/button) to both CharacterDetailPage and CharacterCard.
+> 3. Implement src/pages/FavoritesPage.tsx displaying the grid of favorited characters, and an empty state ("No favorites saved yet") with a link back to characters if empty.
+> 4. Ensure full TypeScript types, no 'any', and responsive design.
+> </pasted_content id="34ba">

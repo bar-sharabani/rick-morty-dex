@@ -30,6 +30,27 @@ export async function fetchCharacters(
 }
 
 /**
+ * Fetches several characters in one request (`/character/1,2,3`).
+ * IDs that don't exist are simply missing from the result.
+ */
+export async function fetchCharactersByIds(
+  ids: readonly number[],
+  signal?: AbortSignal,
+): Promise<Character[]> {
+  if (ids.length === 0) return []
+
+  const response = await fetch(`${API_BASE_URL}/character/${ids.join(',')}`, { signal })
+
+  if (!response.ok) {
+    throw new ApiError(response.status)
+  }
+
+  // The API returns a single object (not an array) when only one ID is requested.
+  const data = (await response.json()) as Character | Character[]
+  return Array.isArray(data) ? data : [data]
+}
+
+/**
  * Fetches a single character by ID.
  * Throws an `ApiError` (status 404 for unknown IDs) on a non-2xx response.
  */
