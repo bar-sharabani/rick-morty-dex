@@ -79,3 +79,13 @@
 >    * getMostFeaturedCharacter finding the max episodes character and handling empty lists.
 > 4. Ensure all tests pass with npm test, zero TypeScript errors, and no 'any' types.
 > </pasted_content id="8733">
+
+**22:01 · claude**
+
+> <pasted_content id="d3e4">
+> Please read PRD.md and tasks.md, and implement Task 9 in full.
+> 
+> 1. Review all CSS across the app to ensure clean, consistent design and flawless mobile responsiveness on narrow screens (320px - 480px). Ensure the NavBar collapses/wraps cleanly on mobile.
+> 2. Verify that our custom components (NavBar, LoadingSpinner, ErrorMessage, CharacterCard, SearchBar, StatusBadge, FavoriteButton) are properly modularized in separate files.
+> 3. Ensure no horizontal overflow anywhere in the application.
+> </pasted_content id="d3e4">

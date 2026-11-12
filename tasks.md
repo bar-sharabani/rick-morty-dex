@@ -32,7 +32,7 @@
   - Install Vitest and Vitest UI. Write at least 5 unit tests for filtering and statistics calculations.
   - *Done when:* `npm test` passes all tests and `npm run test:ui` opens the Vitest dashboard without errors.
 
-- [ ] **Task 9: Responsive CSS & Component Refinement**
+- [x] **Task 9: Responsive CSS & Component Refinement**
   - Refine CSS styling, ensure mobile responsiveness, and confirm at least 4 custom components exist in separate files.
   - *Done when:* App layout adapts cleanly to narrow mobile screens without horizontal scroll.
 
