@@ -36,6 +36,6 @@
   - Refine CSS styling, ensure mobile responsiveness, and confirm at least 4 custom components exist in separate files.
   - *Done when:* App layout adapts cleanly to narrow mobile screens without horizontal scroll.
 
-- [ ] **Task 10: Build Verification & Documentation**
+- [x] **Task 10: Build Verification & Documentation**
   - Update `README.md` with instructions, verify `npm run build` passes with zero errors and no `any` types.
   - *Done when:* Production build succeeds and README explains run commands and architecture.

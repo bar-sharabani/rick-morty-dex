@@ -89,3 +89,19 @@
 > 2. Verify that our custom components (NavBar, LoadingSpinner, ErrorMessage, CharacterCard, SearchBar, StatusBadge, FavoriteButton) are properly modularized in separate files.
 > 3. Ensure no horizontal overflow anywhere in the application.
 > </pasted_content id="d3e4">
+
+## 2026-11-12
+
+**11:54 · claude**
+
+> <pasted_content id="98fc">
+> Please read PRD.md and tasks.md, and implement Task 10 in full.
+> 
+> 1. Rewrite README.md to cleanly document the project according to course requirements:
+>    * What the app does and key features (Master-detail, Search/Filter, Favorites with localStorage, Multiverse Statistics).
+>    * Tech stack: React, Vite, TypeScript, React Router, Vitest.
+>    * API used: Rick and Morty API (https://rickandmortyapi.com/).
+>    * Step-by-step instructions on how to install, run the app (npm run dev), run tests (npm test), and run the test UI (npm run test:ui).
+> 2. Run a full clean npm run build and npm test to verify everything compiles with zero errors and no 'any' types.
+> 3. Tick Task 10 in tasks.md.
+> </pasted_content id="98fc">
