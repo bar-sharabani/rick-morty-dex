@@ -105,3 +105,8 @@
 > 2. Run a full clean npm run build and npm test to verify everything compiles with zero errors and no 'any' types.
 > 3. Tick Task 10 in tasks.md.
 > </pasted_content id="98fc">
+
+**12:07 · claude**
+
+> @"C:\Users\barsh\Documents\frontend job instructions\hebrew_instructions.txt" @"C:\Users\barsh\Documents\frontend job instructions\README.md"
+> Please check this project against the lecturer's instructions, and tell me if everything was done well. Don't modify any files, I just want a review. I need to know if I missed or forgot something before submitting.
