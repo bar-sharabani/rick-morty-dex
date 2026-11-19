@@ -110,3 +110,9 @@
 
 > @"C:\Users\barsh\Documents\frontend job instructions\hebrew_instructions.txt" @"C:\Users\barsh\Documents\frontend job instructions\README.md"
 > Please check this project against the lecturer's instructions, and tell me if everything was done well. Don't modify any files, I just want a review. I need to know if I missed or forgot something before submitting.
+
+## 2026-11-19
+
+**19:14 · claude**
+
+> Explain useSyncExternalStore in useFavorites, AbortController in the hooks, and the Map/Set caching in useCharactersByIds in simple terms, and give me 3 common defense questions with clear sample answers I can study from.
